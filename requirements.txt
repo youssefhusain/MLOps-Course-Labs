@@ -1,11 +1,1 @@
-fastapi
-uvicorn
-httpx
-prometheus-client
-mlflow==2.22.0 
-cloudpickle==3.1.1
-numpy==1.25.2
-pandas==2.2.3
-psutil==5.9.5
-scikit-learn==1.6.1
-scipy==1.15.2
+Flask==3.1.1
