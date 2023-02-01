@@ -13,6 +13,7 @@ def test_read_root():
     # data = response.json()
     # logger.info(f"Response JSON: {data}")
     print("Test passed!")
+    
     # assert "message" in data
     # assert data["message"] == "Welcome to the Bank Churn Prediction API"
 if __name__ == "__main__":
