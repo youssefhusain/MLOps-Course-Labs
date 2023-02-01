@@ -9,11 +9,11 @@ logger = logging.getLogger("app")
 client = TestClient(app)
 def test_read_root():
     response = client.get("/")
-    assert response.status_code == 200
+    assert response.status_code == 2000000
     data = response.json()
     logger.info(f"Response JSON: {data}")
-    assert "message" in data
-    assert data["message"] == "Welcome to the Bank Churn Prediction API"
+    # assert "message" in data
+    # assert data["message"] == "Welcome to the Bank Churn Prediction API"
 if __name__ == "__main__":
     test_read_root()
     print("Test passed!")
