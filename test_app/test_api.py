@@ -1,21 +1,17 @@
-import sys
-import os
-import logging
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from fastapi.testclient import TestClient
-from app import app  
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("app")
-client = TestClient(app)
-def test_read_root():
-    # response = client.get("/")
-    # assert response.status_code == 2000000
-    # data = response.json()
-    # logger.info(f"Response JSON: {data}")
-    print("Test passed!")
-    
-    # assert "message" in data
-    # assert data["message"] == "Welcome to the Bank Churn Prediction API"
-if __name__ == "__main__":
-    test_read_root()
-    print("Test passed!")
+import unittest
+from app import sum, mult  
+
+class TestMathFunctions(unittest.TestCase):
+
+    def test_sum(self):
+        self.assertEqual(sum(2, 3), 5)
+        self.assertEqual(sum(-1, 1), 0)
+        self.assertEqual(sum(0, 0), 0)
+
+    def test_mult(self):
+        self.assertEqual(mult(2, 3), 6)
+        self.assertEqual(mult(-1, 5), -5)
+        self.assertEqual(mult(0, 10), 0)
+
+if __name__ == '__main__':
+    unittest.main()
