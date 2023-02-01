@@ -1,5 +1,5 @@
 import unittest
-from src.app import sum, mult
+from app import sum, mult
 
 class TestMathFunctions(unittest.TestCase):
 
