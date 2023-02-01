@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/180209308314071186
+creation_time: 1747573185047
+experiment_id: '180209308314071186'
+last_update_time: 1747573185047
+lifecycle_stage: active
+name: RandomForest1

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/d6d23349fc87483cb0c031a2af300bbc/artifacts
+deleted_time: 1747571076947
+end_time: 1747567029713
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: d6d23349fc87483cb0c031a2af300bbc
+run_name: marvelous-squid-132
+run_uuid: d6d23349fc87483cb0c031a2af300bbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567024184
+status: 3
+tags: []
+user_id: joe

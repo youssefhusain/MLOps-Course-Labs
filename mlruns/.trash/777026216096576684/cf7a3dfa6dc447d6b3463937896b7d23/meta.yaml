@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/cf7a3dfa6dc447d6b3463937896b7d23/artifacts
+deleted_time: 1747571076947
+end_time: 1747569013656
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: cf7a3dfa6dc447d6b3463937896b7d23
+run_name: glamorous-mouse-720
+run_uuid: cf7a3dfa6dc447d6b3463937896b7d23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747569013480
+status: 4
+tags: []
+user_id: joe

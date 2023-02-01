@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/13297ee38ff94588b38f1a0c29f314f1/artifacts
+deleted_time: 1747571076947
+end_time: 1747567012527
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: 13297ee38ff94588b38f1a0c29f314f1
+run_name: enthused-sloth-763
+run_uuid: 13297ee38ff94588b38f1a0c29f314f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567006717
+status: 3
+tags: []
+user_id: joe

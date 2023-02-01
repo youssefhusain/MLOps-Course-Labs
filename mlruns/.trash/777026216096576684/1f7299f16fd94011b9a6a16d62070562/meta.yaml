@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/1f7299f16fd94011b9a6a16d62070562/artifacts
+deleted_time: 1747571076947
+end_time: 1747567006632
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: 1f7299f16fd94011b9a6a16d62070562
+run_name: caring-stork-771
+run_uuid: 1f7299f16fd94011b9a6a16d62070562
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747566993257
+status: 3
+tags: []
+user_id: joe

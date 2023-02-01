@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/180209308314071186/bb4f0e1c985e46b683da7048b8ed2ef9/artifacts
+end_time: 1747573238362
+entry_point_name: ''
+experiment_id: '180209308314071186'
+lifecycle_stage: active
+run_id: bb4f0e1c985e46b683da7048b8ed2ef9
+run_name: dashing-stoat-917
+run_uuid: bb4f0e1c985e46b683da7048b8ed2ef9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747573185068
+status: 3
+tags: []
+user_id: joe

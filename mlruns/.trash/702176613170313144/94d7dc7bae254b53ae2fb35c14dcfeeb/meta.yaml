@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/702176613170313144/94d7dc7bae254b53ae2fb35c14dcfeeb/artifacts
+deleted_time: 1747571072842
+end_time: 1747569316257
+entry_point_name: ''
+experiment_id: '702176613170313144'
+lifecycle_stage: deleted
+run_id: 94d7dc7bae254b53ae2fb35c14dcfeeb
+run_name: sincere-hound-935
+run_uuid: 94d7dc7bae254b53ae2fb35c14dcfeeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747569268781
+status: 3
+tags: []
+user_id: joe

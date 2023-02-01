@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/3fb881fb15ae4b3582471394b47261d7/artifacts
+deleted_time: 1747571076947
+end_time: 1747567391569
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: 3fb881fb15ae4b3582471394b47261d7
+run_name: glamorous-ape-667
+run_uuid: 3fb881fb15ae4b3582471394b47261d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567386298
+status: 3
+tags: []
+user_id: joe

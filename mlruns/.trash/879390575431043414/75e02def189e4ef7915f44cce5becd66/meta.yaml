@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/879390575431043414/75e02def189e4ef7915f44cce5becd66/artifacts
+deleted_time: 1747569786961
+end_time: 1747566619338
+entry_point_name: ''
+experiment_id: '879390575431043414'
+lifecycle_stage: deleted
+run_id: 75e02def189e4ef7915f44cce5becd66
+run_name: gregarious-fawn-943
+run_uuid: 75e02def189e4ef7915f44cce5becd66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747566597532
+status: 3
+tags: []
+user_id: joe

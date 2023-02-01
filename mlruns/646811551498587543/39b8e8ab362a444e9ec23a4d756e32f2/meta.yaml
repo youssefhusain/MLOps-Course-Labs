@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/646811551498587543/39b8e8ab362a444e9ec23a4d756e32f2/artifacts
+end_time: 1747573344532
+entry_point_name: ''
+experiment_id: '646811551498587543'
+lifecycle_stage: active
+run_id: 39b8e8ab362a444e9ec23a4d756e32f2
+run_name: welcoming-perch-419
+run_uuid: 39b8e8ab362a444e9ec23a4d756e32f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747573288902
+status: 3
+tags: []
+user_id: joe

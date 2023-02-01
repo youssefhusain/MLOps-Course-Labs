@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/adac25649ca946859e8df5bfc6dfbbac/artifacts
+deleted_time: 1747571076947
+end_time: 1747568459783
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: adac25649ca946859e8df5bfc6dfbbac
+run_name: adorable-cow-354
+run_uuid: adac25649ca946859e8df5bfc6dfbbac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747568459704
+status: 4
+tags: []
+user_id: joe

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/354449932770113769/6c8de1d5a144464d9c6b4f51f12f75d2/artifacts
+deleted_time: 1747571074748
+end_time: 1747569268655
+entry_point_name: ''
+experiment_id: '354449932770113769'
+lifecycle_stage: deleted
+run_id: 6c8de1d5a144464d9c6b4f51f12f75d2
+run_name: sneaky-colt-155
+run_uuid: 6c8de1d5a144464d9c6b4f51f12f75d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747569216683
+status: 3
+tags: []
+user_id: joe

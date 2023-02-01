@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/a16500849630440989c3ea1bd89c0f8b/artifacts
+deleted_time: 1747571076947
+end_time: 1747567386205
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: a16500849630440989c3ea1bd89c0f8b
+run_name: useful-shad-904
+run_uuid: a16500849630440989c3ea1bd89c0f8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567380973
+status: 3
+tags: []
+user_id: joe

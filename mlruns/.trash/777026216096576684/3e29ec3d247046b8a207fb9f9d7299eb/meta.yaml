@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/3e29ec3d247046b8a207fb9f9d7299eb/artifacts
+deleted_time: 1747571076947
+end_time: 1747567024094
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: 3e29ec3d247046b8a207fb9f9d7299eb
+run_name: placid-whale-163
+run_uuid: 3e29ec3d247046b8a207fb9f9d7299eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567018823
+status: 3
+tags: []
+user_id: joe

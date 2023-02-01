@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/da2899cff6134719a0896d0689385f84/artifacts
+deleted_time: 1747571076947
+end_time: 1747567375756
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: da2899cff6134719a0896d0689385f84
+run_name: loud-seal-78
+run_uuid: da2899cff6134719a0896d0689385f84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567369632
+status: 3
+tags: []
+user_id: joe

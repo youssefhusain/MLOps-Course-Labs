@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/475747901788995990/5717af53601544c8a4275cd16b534e09/artifacts
+end_time: 1747573423075
+entry_point_name: ''
+experiment_id: '475747901788995990'
+lifecycle_stage: active
+run_id: 5717af53601544c8a4275cd16b534e09
+run_name: mercurial-colt-321
+run_uuid: 5717af53601544c8a4275cd16b534e09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747573344876
+status: 3
+tags: []
+user_id: joe

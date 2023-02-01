@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/475747901788995990
+creation_time: 1747573344852
+experiment_id: '475747901788995990'
+last_update_time: 1747573344852
+lifecycle_stage: active
+name: GradientBoosting1

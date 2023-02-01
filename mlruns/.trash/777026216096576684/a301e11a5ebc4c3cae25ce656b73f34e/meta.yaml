@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/a301e11a5ebc4c3cae25ce656b73f34e/artifacts
+deleted_time: 1747571076947
+end_time: 1747568525383
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: a301e11a5ebc4c3cae25ce656b73f34e
+run_name: useful-cub-600
+run_uuid: a301e11a5ebc4c3cae25ce656b73f34e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747568514440
+status: 3
+tags: []
+user_id: joe

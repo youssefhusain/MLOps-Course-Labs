@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/10dcf7bcab764151b974eab388fe7cfa/artifacts
+deleted_time: 1747571076947
+end_time: 1747569662014
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: 10dcf7bcab764151b974eab388fe7cfa
+run_name: enchanting-fish-198
+run_uuid: 10dcf7bcab764151b974eab388fe7cfa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747569640910
+status: 3
+tags: []
+user_id: joe

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/907084220667214741/3110e35cc4624d689233ee2b8be04e68/artifacts
+end_time: 1747573442729
+entry_point_name: ''
+experiment_id: '907084220667214741'
+lifecycle_stage: active
+run_id: 3110e35cc4624d689233ee2b8be04e68
+run_name: capable-snail-944
+run_uuid: 3110e35cc4624d689233ee2b8be04e68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747573423416
+status: 3
+tags: []
+user_id: joe

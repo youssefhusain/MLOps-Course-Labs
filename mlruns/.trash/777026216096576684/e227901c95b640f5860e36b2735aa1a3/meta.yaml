@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/e227901c95b640f5860e36b2735aa1a3/artifacts
+deleted_time: 1747571076947
+end_time: 1747567380876
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: e227901c95b640f5860e36b2735aa1a3
+run_name: inquisitive-bird-970
+run_uuid: e227901c95b640f5860e36b2735aa1a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567375843
+status: 3
+tags: []
+user_id: joe

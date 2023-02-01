@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/777026216096576684/de49b4874cb34c81bcb4dfdb5857b202/artifacts
+deleted_time: 1747571076947
+end_time: 1747567035303
+entry_point_name: ''
+experiment_id: '777026216096576684'
+lifecycle_stage: deleted
+run_id: de49b4874cb34c81bcb4dfdb5857b202
+run_name: debonair-ant-842
+run_uuid: de49b4874cb34c81bcb4dfdb5857b202
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747567029804
+status: 3
+tags: []
+user_id: joe
