@@ -1,13 +1,13 @@
 version: "3.9"
 
 services:
-  fastapi:
-    image: 60795916912.dkr.ecr.us-east-1.amazonaws.com/churn-prediction:rania30111
-    container_name: fastapi-app
-    ports:
-      - "8000:8000"
-    networks:
-      - monitoring
+#   fastapi:
+#     image: 60795916912.dkr.ecr.us-east-1.amazonaws.com/churn-prediction:rania30111
+#     container_name: fastapi-app
+#     ports:
+#       - "8000:8000"
+#     networks:
+#       - monitoring
 
   prometheus:
     image: prom/prometheus:latest
