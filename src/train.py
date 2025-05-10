@@ -9,7 +9,7 @@ from sklearn.utils import resample
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder,  StandardScaler
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
@@ -19,6 +19,7 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay,
 )
 
+### Import MLflow
 
 def rebalance(data):
     """
@@ -94,6 +95,7 @@ def preprocess(df):
         X, y, test_size=0.3, random_state=1912
     )
     col_transf = make_column_transformer(
+        (StandardScaler(), num_cols), 
         (OneHotEncoder(handle_unknown="ignore", drop="first"), cat_cols),
         remainder="passthrough",
     )
@@ -120,18 +122,40 @@ def train(X_train, y_train):
     """
     log_reg = LogisticRegression(max_iter=1000)
     log_reg.fit(X_train, y_train)
+
+    ### Log the model with the input and output schema
+    # Infer signature (input and output schema)
+
+    # Log model
+
+    ### Log the data
+
     return log_reg
 
 
 def main():
+    ### Set the tracking URI for MLflow
+
+    ### Set the experiment name
+
+
+    ### Start a new run and leave all the main function code as part of the experiment
+
     df = pd.read_csv("data/Churn_Modelling.csv")
     col_transf, X_train, X_test, y_train, y_test = preprocess(df)
+
+    ### Log the max_iter parameter
+
     model = train(X_train, y_train)
+
+    
     y_pred = model.predict(X_test)
-    print(f"Accuracy score: {accuracy_score(y_test, y_pred):.2f}")
-    print(f"Precision score: {precision_score(y_test, y_pred):.2f}")
-    print(f"Recall score: {recall_score(y_test, y_pred):.2f}")
-    print(f"F1 score: {f1_score(y_test, y_pred):.2f}")
+
+    ### Log metrics after calculating them
+
+
+    ### Log tag
+
 
     conf_mat = confusion_matrix(y_test, y_pred, labels=model.classes_)
     conf_mat_disp = ConfusionMatrixDisplay(
