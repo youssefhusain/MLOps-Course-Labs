@@ -106,6 +106,8 @@ def preprocess(df):
     X_test = col_transf.transform(X_test)
     X_test = pd.DataFrame(X_test, columns=col_transf.get_feature_names_out())
 
+    # Log the transformer as an artifact
+
     return col_transf, X_train, X_test, y_train, y_test
 
 
@@ -157,11 +159,15 @@ def main():
     ### Log tag
 
 
+    
     conf_mat = confusion_matrix(y_test, y_pred, labels=model.classes_)
     conf_mat_disp = ConfusionMatrixDisplay(
         confusion_matrix=conf_mat, display_labels=model.classes_
     )
     conf_mat_disp.plot()
+    
+    # Log the image as an artifact in MLflow
+    
     plt.show()
 
 
