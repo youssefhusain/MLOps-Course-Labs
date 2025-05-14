@@ -1,1 +1,1 @@
-# MLOps-Course
+# Bank Customer Churn Prediction
