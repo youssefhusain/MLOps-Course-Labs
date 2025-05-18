@@ -1,9 +1,15 @@
 # Bank Customer Churn Prediction
-![](artifacts/"modelimg.png")
+![](artifacts/model img.png)
 
 ![](artifacts/img1acc.png)
 
-
+.
+├── data/                   # Dataset CSV file
+├── artifacts/              # Model images and MLflow artifacts
+├── src/
+│   └── train.py            # Training script with MLflow integration
+├── requirements.txt
+├── README.md
 
 
 - [X] 1. Fork this Repo [https://github.com/Heba-Atef99/MLOps-Course-Labs]
@@ -31,6 +37,4 @@ choice :D
 EXTRA BONUS: Make the code cleaner, e.g., break the code into modules, add logging, .. etc
 
 
-واجبك
-تم تعيينه
-التعليقات الخاصة
+
