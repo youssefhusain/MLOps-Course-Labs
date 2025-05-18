@@ -1,5 +1,5 @@
 # Bank Customer Churn Prediction
-![](artifacts/model%img.png)
+![]("artifacts/model img.png")
 
 ![](artifacts/img1acc.png)
 
