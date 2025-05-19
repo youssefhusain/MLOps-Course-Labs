@@ -36,10 +36,6 @@ pip install -r requirements.txt
 uvicorn api:app --reload
 ```
 
-3. Access the Swagger UI:
-
-[http://localhost:8000/docs](http://localhost:8000/docs)
-
 ---
 
 ## 📦 API Endpoints
@@ -96,63 +92,6 @@ Takes customer features and returns the prediction.
 }
 ```
 
-**Response:**
-```json
-{
-  "prediction": [1]
-}
-```
 
----
-
-## 🧪 Testing
-
-Make sure to include at least one test function in `test_api.py`. Example test:
-
-```python
-from fastapi.testclient import TestClient
-from api import app
-
-client = TestClient(app)
-
-def test_home():
-    response = client.get("/")
-    assert response.status_code == 200
-    assert response.json() == {"message": "Welcome to the ML prediction API"}
-```
-
----
-
-## 🪵 Logging
-
-Logging is enabled using Python’s built-in `logging` module to track:
-
-- Model load status
-- Requests received
-- Prediction results
-- Health checks
-
----
-
-## 🌐 Screenshot
-
-Insert a screenshot of your Swagger UI here:
-
-![Swagger UI](./screenshot.png)
-
----
-
-## ✅ Bonus (Optional)
-
-- ✅ Use [HyperDX](https://hyperdx.io) for live logs
-- ✅ Follow commit message convention (e.g., `feat: add predict endpoint`)
-- ✅ Use `feature/api` branch then merge to `main`
-- ✅ Write 3 test functions in total
-
----
-
-## 🔗 Repo
-
-[GitHub Repository Link](https://github.com/your-username/your-repo-name)
 
 
