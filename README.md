@@ -17,7 +17,7 @@ This FastAPI app serves a machine learning model and provides endpoints to inter
 
 ```
 ├── api.py              # Main FastAPI app
-├── iris_model.pkl      # Pretrained ML model (example: DecisionTreeClassifier)
+├── model.pkl      # Pretrained ML model (example: DecisionTreeClassifier)
 ├── test_api.py         # Test script (not shown here)
 ├── requirements.txt    # Python dependencies
 ```
