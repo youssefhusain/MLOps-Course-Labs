@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import joblib
 import logging
 import os
+import numpy as np
 
 
 logging.basicConfig(level=logging.INFO)
@@ -35,40 +36,45 @@ class CustomerData(BaseModel):
 
 @app.get("/")
 def home():
-    logger.info("Home endpoint hit")
-    return {"message": "Welcome to the ML prediction API"}
+    return {"message": "Welcome to the Churn Prediction API. Use /docs for Swagger UI."}
 
 
 @app.get("/health")
-def health_check():
-    status = model is not None
-    logger.info("Health check: %s", status)
-    return {"status": "ok" if status else "model not loaded"}
+def health():
+    return {"status": "Healthy"}
 
 
 @app.post("/predict")
-def predict(data: CustomerData):
-    if model is None:
-        logger.error("Prediction attempted but model not loaded")
-        raise HTTPException(status_code=500, detail="Model not loaded")
-
-    geography_map = {"France": 0, "Spain": 1, "Germany": 2}
-    gender_map = {"Male": 0, "Female": 1}
-
+def predict(input_data: CustomerData):
     try:
-        geo = geography_map[data.Geography]
-        gender = gender_map[data.Gender]
-    except KeyError as e:
-        logger.error("Invalid input: %s", e)
-        raise HTTPException(status_code=400, detail=f"Invalid category: {e}")
+        logger.info("Received prediction request.")
+        
+  
+        input_array = np.array([
+            input_data.CreditScore,
+            input_data.Geography == "France",
+            input_data.Geography == "Spain",
+            input_data.Gender == "Male",
+            input_data.Age,
+            input_data.Tenure,
+            input_data.Balance,
+            input_data.NumOfProducts,
+            input_data.HasCrCard,
+            input_data.IsActiveMember,
+            input_data.EstimatedSalary,
+        ]).reshape(1, -1)
 
-    features = [[
-        data.CreditScore, geo, gender, data.Age, data.Tenure, data.Balance,
-        data.NumOfProducts, data.HasCrCard, data.IsActiveMember, data.EstimatedSalary
-    ]]
+        prediction = model.predict(input_array)[0]
+        probability = model.predict_proba(input_array)[0, 1]
 
-    logger.info("Received prediction request with data: %s", features)
-    prediction = model.predict(features)
-    logger.info("Prediction result: %s", prediction)
+        result = {
+            "prediction": int(prediction),
+            "probability_of_churn": round(probability, 4),
+        }
 
-    return {"prediction": int(prediction[0])}
+        logger.info(f"Prediction result: {result}")
+        return result
+
+    except Exception as e:
+        logger.error(f"Error during prediction: {e}")
+        return {"error": str(e)}
