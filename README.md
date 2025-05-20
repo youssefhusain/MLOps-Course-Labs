@@ -1,7 +1,29 @@
-# MLOps Course Labs
+# ==========================
+# Dockerfile for FastAPI App
+# ==========================
+# Step 1:the Dockerfile
+```bash
+FROM python:3.10-slim
 
-Welcome to the lab repository for the [MLOps Course](https://github.com/Heba-Atef99/MLOps-Course).
+WORKDIR /app
 
-Throughout this hands-on journey, you'll develop a **Bank Customer Churn Prediction** application—starting from the research phase and progressing through the full MLOps lifecycle, all the way to deployment.
 
-> **Note:** Currently, the repository contains only the `research` branch. The remaining branches will be built step by step by the reader during the course days, as part of the learning experience.
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+COPY . .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+# Step 2: Run the Docker Container
+
+
+```bash
+
+docker build -f Dockerfile -t youssef_app .
+```
